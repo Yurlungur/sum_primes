@@ -7,6 +7,8 @@ than N.
 
 import numpy
 
+MAX_NUMBER = 200
+
 def sum_primes(N):
     """
     Computes the sum of all prime numbers less than N using the Sieve
@@ -32,8 +34,7 @@ def sum_primes(N):
     prime_sum = numpy.sum(numbers)
     return prime_sum
 
-max_number = 200
-print "Summing all prime numbers less than {}.".format(max_number)
-prime_sum = sum_primes(max_number)
+print "Summing all prime numbers less than {}.".format(MAX_NUMBER)
+prime_sum = sum_primes(MAX_NUMBER)
 print "The sum is {}.".format(prime_sum)
 
