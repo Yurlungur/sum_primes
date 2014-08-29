@@ -1,0 +1,4 @@
+sum_primes.py
+
+This is a tiny little Python script to sum all prime numbers less than
+some maximum number N. Uses the Sieve of Eratosthenes.
